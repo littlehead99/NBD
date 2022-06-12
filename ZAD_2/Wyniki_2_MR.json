@@ -1,0 +1,930 @@
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("fb054254-957d-48c6-a5d2-3e45c1f3383f") }
+MongoDB server version: 5.0.6
+[
+	{
+		"_id" : "AED",
+		"value" : {
+			"balanceSum" : 52973.329999999994
+		}
+	},
+	{
+		"_id" : "AFN",
+		"value" : {
+			"balanceSum" : 661834.7499999999
+		}
+	},
+	{
+		"_id" : "ALL",
+		"value" : {
+			"balanceSum" : 651597.87
+		}
+	},
+	{
+		"_id" : "AMD",
+		"value" : {
+			"balanceSum" : 602964.09
+		}
+	},
+	{
+		"_id" : "ANG",
+		"value" : {
+			"balanceSum" : 21354.39
+		}
+	},
+	{
+		"_id" : "AOA",
+		"value" : {
+			"balanceSum" : 67582.8
+		}
+	},
+	{
+		"_id" : "ARS",
+		"value" : {
+			"balanceSum" : 1940347.2400000012
+		}
+	},
+	{
+		"_id" : "AUD",
+		"value" : {
+			"balanceSum" : 242667.03000000003
+		}
+	},
+	{
+		"_id" : "AWG",
+		"value" : {
+			"balanceSum" : 7282.73
+		}
+	},
+	{
+		"_id" : "AZN",
+		"value" : {
+			"balanceSum" : 394880.17000000004
+		}
+	},
+	{
+		"_id" : "BAM",
+		"value" : {
+			"balanceSum" : 415965.4699999999
+		}
+	},
+	{
+		"_id" : "BBD",
+		"value" : {
+			"balanceSum" : 26720.5
+		}
+	},
+	{
+		"_id" : "BDT",
+		"value" : {
+			"balanceSum" : 294843.3799999999
+		}
+	},
+	{
+		"_id" : "BGN",
+		"value" : {
+			"balanceSum" : 496641.8299999998
+		}
+	},
+	{
+		"_id" : "BHD",
+		"value" : {
+			"balanceSum" : 22698.46
+		}
+	},
+	{
+		"_id" : "BIF",
+		"value" : {
+			"balanceSum" : 45782.33
+		}
+	},
+	{
+		"_id" : "BMD",
+		"value" : {
+			"balanceSum" : 5189
+		}
+	},
+	{
+		"_id" : "BND",
+		"value" : {
+			"balanceSum" : 7782.66
+		}
+	},
+	{
+		"_id" : "BOB",
+		"value" : {
+			"balanceSum" : 257433.54000000004
+		}
+	},
+	{
+		"_id" : "BRL",
+		"value" : {
+			"balanceSum" : 5609899.999999995
+		}
+	},
+	{
+		"_id" : "BSD",
+		"value" : {
+			"balanceSum" : 55361.39
+		}
+	},
+	{
+		"_id" : "BTN",
+		"value" : {
+			"balanceSum" : 37711.08
+		}
+	},
+	{
+		"_id" : "BWP",
+		"value" : {
+			"balanceSum" : 146972.03999999998
+		}
+	},
+	{
+		"_id" : "BYR",
+		"value" : {
+			"balanceSum" : 686489.8400000001
+		}
+	},
+	{
+		"_id" : "BZD",
+		"value" : {
+			"balanceSum" : 24296.69
+		}
+	},
+	{
+		"_id" : "CAD",
+		"value" : {
+			"balanceSum" : 1973241.599999998
+		}
+	},
+	{
+		"_id" : "CDF",
+		"value" : {
+			"balanceSum" : 178097.37000000002
+		}
+	},
+	{
+		"_id" : "CHF",
+		"value" : {
+			"balanceSum" : 108940.64000000001
+		}
+	},
+	{
+		"_id" : "CLP",
+		"value" : {
+			"balanceSum" : 388620.14
+		}
+	},
+	{
+		"_id" : "CNY",
+		"value" : {
+			"balanceSum" : 27425502.27000003
+		}
+	},
+	{
+		"_id" : "COP",
+		"value" : {
+			"balanceSum" : 1976194.7899999996
+		}
+	},
+	{
+		"_id" : "CRC",
+		"value" : {
+			"balanceSum" : 334544.06000000006
+		}
+	},
+	{
+		"_id" : "CUP",
+		"value" : {
+			"balanceSum" : 514413.87999999983
+		}
+	},
+	{
+		"_id" : "CVE",
+		"value" : {
+			"balanceSum" : 46538.509999999995
+		}
+	},
+	{
+		"_id" : "CZK",
+		"value" : {
+			"balanceSum" : 2644211.160000004
+		}
+	},
+	{
+		"_id" : "DJF",
+		"value" : {
+			"balanceSum" : 14734.27
+		}
+	},
+	{
+		"_id" : "DKK",
+		"value" : {
+			"balanceSum" : 222452.28000000003
+		}
+	},
+	{
+		"_id" : "DOP",
+		"value" : {
+			"balanceSum" : 534069.77
+		}
+	},
+	{
+		"_id" : "DZD",
+		"value" : {
+			"balanceSum" : 12166.2
+		}
+	},
+	{
+		"_id" : "EGP",
+		"value" : {
+			"balanceSum" : 528336.1399999998
+		}
+	},
+	{
+		"_id" : "ERN",
+		"value" : {
+			"balanceSum" : 21598.47
+		}
+	},
+	{
+		"_id" : "ETB",
+		"value" : {
+			"balanceSum" : 269686.62000000005
+		}
+	},
+	{
+		"_id" : "EUR",
+		"value" : {
+			"balanceSum" : 16700089.280000042
+		}
+	},
+	{
+		"_id" : "FJD",
+		"value" : {
+			"balanceSum" : 9321.43
+		}
+	},
+	{
+		"_id" : "FKP",
+		"value" : {
+			"balanceSum" : 5118.97
+		}
+	},
+	{
+		"_id" : "GBP",
+		"value" : {
+			"balanceSum" : 243512.86
+		}
+	},
+	{
+		"_id" : "GEL",
+		"value" : {
+			"balanceSum" : 157276.96000000002
+		}
+	},
+	{
+		"_id" : "GHS",
+		"value" : {
+			"balanceSum" : 83159.05
+		}
+	},
+	{
+		"_id" : "GMD",
+		"value" : {
+			"balanceSum" : 157963.90000000002
+		}
+	},
+	{
+		"_id" : "GNF",
+		"value" : {
+			"balanceSum" : 73222.47999999998
+		}
+	},
+	{
+		"_id" : "GTQ",
+		"value" : {
+			"balanceSum" : 588368.8500000001
+		}
+	},
+	{
+		"_id" : "GYD",
+		"value" : {
+			"balanceSum" : 13053.5
+		}
+	},
+	{
+		"_id" : "HKD",
+		"value" : {
+			"balanceSum" : 23023.02
+		}
+	},
+	{
+		"_id" : "HNL",
+		"value" : {
+			"balanceSum" : 817695.2399999995
+		}
+	},
+	{
+		"_id" : "HRK",
+		"value" : {
+			"balanceSum" : 689403.5000000003
+		}
+	},
+	{
+		"_id" : "HTG",
+		"value" : {
+			"balanceSum" : 215992.13000000006
+		}
+	},
+	{
+		"_id" : "HUF",
+		"value" : {
+			"balanceSum" : 165192.15999999997
+		}
+	},
+	{
+		"_id" : "IDR",
+		"value" : {
+			"balanceSum" : 15619806.110000033
+		}
+	},
+	{
+		"_id" : "ILS",
+		"value" : {
+			"balanceSum" : 758807.6300000001
+		}
+	},
+	{
+		"_id" : "INR",
+		"value" : {
+			"balanceSum" : 24172.94
+		}
+	},
+	{
+		"_id" : "IQD",
+		"value" : {
+			"balanceSum" : 167531.82
+		}
+	},
+	{
+		"_id" : "IRR",
+		"value" : {
+			"balanceSum" : 804397.05
+		}
+	},
+	{
+		"_id" : "ISK",
+		"value" : {
+			"balanceSum" : 39048.74
+		}
+	},
+	{
+		"_id" : "JMD",
+		"value" : {
+			"balanceSum" : 201447.70999999996
+		}
+	},
+	{
+		"_id" : "JOD",
+		"value" : {
+			"balanceSum" : 210496.68000000002
+		}
+	},
+	{
+		"_id" : "JPY",
+		"value" : {
+			"balanceSum" : 2584824.899999998
+		}
+	},
+	{
+		"_id" : "KES",
+		"value" : {
+			"balanceSum" : 269798.11000000004
+		}
+	},
+	{
+		"_id" : "KGS",
+		"value" : {
+			"balanceSum" : 176827.79
+		}
+	},
+	{
+		"_id" : "KHR",
+		"value" : {
+			"balanceSum" : 100447.58
+		}
+	},
+	{
+		"_id" : "KMF",
+		"value" : {
+			"balanceSum" : 138004.69999999998
+		}
+	},
+	{
+		"_id" : "KPW",
+		"value" : {
+			"balanceSum" : 222518.63000000003
+		}
+	},
+	{
+		"_id" : "KRW",
+		"value" : {
+			"balanceSum" : 433497.05999999994
+		}
+	},
+	{
+		"_id" : "KWD",
+		"value" : {
+			"balanceSum" : 82506.07
+		}
+	},
+	{
+		"_id" : "KYD",
+		"value" : {
+			"balanceSum" : 16809.66
+		}
+	},
+	{
+		"_id" : "KZT",
+		"value" : {
+			"balanceSum" : 584923.2
+		}
+	},
+	{
+		"_id" : "LAK",
+		"value" : {
+			"balanceSum" : 86305.04999999999
+		}
+	},
+	{
+		"_id" : "LBP",
+		"value" : {
+			"balanceSum" : 43326.06
+		}
+	},
+	{
+		"_id" : "LKR",
+		"value" : {
+			"balanceSum" : 225111.39000000007
+		}
+	},
+	{
+		"_id" : "LRD",
+		"value" : {
+			"balanceSum" : 54883.450000000004
+		}
+	},
+	{
+		"_id" : "LSL",
+		"value" : {
+			"balanceSum" : 26269.07
+		}
+	},
+	{
+		"_id" : "LTL",
+		"value" : {
+			"balanceSum" : 220627.41999999995
+		}
+	},
+	{
+		"_id" : "LYD",
+		"value" : {
+			"balanceSum" : 197545.65000000005
+		}
+	},
+	{
+		"_id" : "MAD",
+		"value" : {
+			"balanceSum" : 510936.11000000004
+		}
+	},
+	{
+		"_id" : "MDL",
+		"value" : {
+			"balanceSum" : 173318.72999999998
+		}
+	},
+	{
+		"_id" : "MGA",
+		"value" : {
+			"balanceSum" : 377675.55000000005
+		}
+	},
+	{
+		"_id" : "MKD",
+		"value" : {
+			"balanceSum" : 436912.00999999995
+		}
+	},
+	{
+		"_id" : "MMK",
+		"value" : {
+			"balanceSum" : 223284.76
+		}
+	},
+	{
+		"_id" : "MNT",
+		"value" : {
+			"balanceSum" : 639977.4800000001
+		}
+	},
+	{
+		"_id" : "MOP",
+		"value" : {
+			"balanceSum" : 5337.77
+		}
+	},
+	{
+		"_id" : "MRO",
+		"value" : {
+			"balanceSum" : 44471.31999999999
+		}
+	},
+	{
+		"_id" : "MUR",
+		"value" : {
+			"balanceSum" : 182130.47999999998
+		}
+	},
+	{
+		"_id" : "MVR",
+		"value" : {
+			"balanceSum" : 32068.85
+		}
+	},
+	{
+		"_id" : "MWK",
+		"value" : {
+			"balanceSum" : 88106.83000000002
+		}
+	},
+	{
+		"_id" : "MXN",
+		"value" : {
+			"balanceSum" : 1547673.0899999994
+		}
+	},
+	{
+		"_id" : "MYR",
+		"value" : {
+			"balanceSum" : 666533.6499999999
+		}
+	},
+	{
+		"_id" : "MZN",
+		"value" : {
+			"balanceSum" : 92068.64
+		}
+	},
+	{
+		"_id" : "NAD",
+		"value" : {
+			"balanceSum" : 55420.34
+		}
+	},
+	{
+		"_id" : "NGN",
+		"value" : {
+			"balanceSum" : 1282147.140000001
+		}
+	},
+	{
+		"_id" : "NIO",
+		"value" : {
+			"balanceSum" : 240664.87000000002
+		}
+	},
+	{
+		"_id" : "NOK",
+		"value" : {
+			"balanceSum" : 760113.6099999998
+		}
+	},
+	{
+		"_id" : "NPR",
+		"value" : {
+			"balanceSum" : 146606.65
+		}
+	},
+	{
+		"_id" : "NZD",
+		"value" : {
+			"balanceSum" : 338447.5399999999
+		}
+	},
+	{
+		"_id" : "OMR",
+		"value" : {
+			"balanceSum" : 87008.08
+		}
+	},
+	{
+		"_id" : "PAB",
+		"value" : {
+			"balanceSum" : 363643.61000000016
+		}
+	},
+	{
+		"_id" : "PEN",
+		"value" : {
+			"balanceSum" : 2356548.019999999
+		}
+	},
+	{
+		"_id" : "PGK",
+		"value" : {
+			"balanceSum" : 61445.27
+		}
+	},
+	{
+		"_id" : "PHP",
+		"value" : {
+			"balanceSum" : 8223429.019999993
+		}
+	},
+	{
+		"_id" : "PKR",
+		"value" : {
+			"balanceSum" : 687770.5499999998
+		}
+	},
+	{
+		"_id" : "PLN",
+		"value" : {
+			"balanceSum" : 5065738.360000009
+		}
+	},
+	{
+		"_id" : "PYG",
+		"value" : {
+			"balanceSum" : 286515.48000000004
+		}
+	},
+	{
+		"_id" : "QAR",
+		"value" : {
+			"balanceSum" : 36358.92
+		}
+	},
+	{
+		"_id" : "RON",
+		"value" : {
+			"balanceSum" : 11557.6
+		}
+	},
+	{
+		"_id" : "RSD",
+		"value" : {
+			"balanceSum" : 817403.5399999998
+		}
+	},
+	{
+		"_id" : "RUB",
+		"value" : {
+			"balanceSum" : 8532474.090000002
+		}
+	},
+	{
+		"_id" : "RWF",
+		"value" : {
+			"balanceSum" : 43299.96000000001
+		}
+	},
+	{
+		"_id" : "SAR",
+		"value" : {
+			"balanceSum" : 161706
+		}
+	},
+	{
+		"_id" : "SBD",
+		"value" : {
+			"balanceSum" : 9983
+		}
+	},
+	{
+		"_id" : "SCR",
+		"value" : {
+			"balanceSum" : 14797.579999999998
+		}
+	},
+	{
+		"_id" : "SDG",
+		"value" : {
+			"balanceSum" : 127317.75000000006
+		}
+	},
+	{
+		"_id" : "SEK",
+		"value" : {
+			"balanceSum" : 3706221.009999998
+		}
+	},
+	{
+		"_id" : "SGD",
+		"value" : {
+			"balanceSum" : 12820.48
+		}
+	},
+	{
+		"_id" : "SLL",
+		"value" : {
+			"balanceSum" : 116224.90000000001
+		}
+	},
+	{
+		"_id" : "SOS",
+		"value" : {
+			"balanceSum" : 82203.48
+		}
+	},
+	{
+		"_id" : "SRD",
+		"value" : {
+			"balanceSum" : 19686.77
+		}
+	},
+	{
+		"_id" : "SSP",
+		"value" : {
+			"balanceSum" : 42256.53
+		}
+	},
+	{
+		"_id" : "STD",
+		"value" : {
+			"balanceSum" : 4854.36
+		}
+	},
+	{
+		"_id" : "SYP",
+		"value" : {
+			"balanceSum" : 501467.35000000003
+		}
+	},
+	{
+		"_id" : "SZL",
+		"value" : {
+			"balanceSum" : 59113.090000000004
+		}
+	},
+	{
+		"_id" : "THB",
+		"value" : {
+			"balanceSum" : 2084269.8799999992
+		}
+	},
+	{
+		"_id" : "TJS",
+		"value" : {
+			"balanceSum" : 177401.04999999996
+		}
+	},
+	{
+		"_id" : "TMT",
+		"value" : {
+			"balanceSum" : 113099.62000000001
+		}
+	},
+	{
+		"_id" : "TND",
+		"value" : {
+			"balanceSum" : 325755.9000000001
+		}
+	},
+	{
+		"_id" : "TOP",
+		"value" : {
+			"balanceSum" : 18424.47
+		}
+	},
+	{
+		"_id" : "TRY",
+		"value" : {
+			"balanceSum" : 18414.53
+		}
+	},
+	{
+		"_id" : "TTD",
+		"value" : {
+			"balanceSum" : 44044.89
+		}
+	},
+	{
+		"_id" : "TWD",
+		"value" : {
+			"balanceSum" : 37654
+		}
+	},
+	{
+		"_id" : "TZS",
+		"value" : {
+			"balanceSum" : 603855.9900000001
+		}
+	},
+	{
+		"_id" : "UAH",
+		"value" : {
+			"balanceSum" : 2505840.7200000007
+		}
+	},
+	{
+		"_id" : "UGX",
+		"value" : {
+			"balanceSum" : 345203.24999999994
+		}
+	},
+	{
+		"_id" : "USD",
+		"value" : {
+			"balanceSum" : 4086760.810000002
+		}
+	},
+	{
+		"_id" : "UYU",
+		"value" : {
+			"balanceSum" : 231996.14
+		}
+	},
+	{
+		"_id" : "UZS",
+		"value" : {
+			"balanceSum" : 330309.6099999999
+		}
+	},
+	{
+		"_id" : "VEF",
+		"value" : {
+			"balanceSum" : 629053.4099999998
+		}
+	},
+	{
+		"_id" : "VND",
+		"value" : {
+			"balanceSum" : 1395639.1099999996
+		}
+	},
+	{
+		"_id" : "VUV",
+		"value" : {
+			"balanceSum" : 23188.93
+		}
+	},
+	{
+		"_id" : "WST",
+		"value" : {
+			"balanceSum" : 30739.640000000007
+		}
+	},
+	{
+		"_id" : "XAF",
+		"value" : {
+			"balanceSum" : 736336.7700000005
+		}
+	},
+	{
+		"_id" : "XCD",
+		"value" : {
+			"balanceSum" : 168150.01
+		}
+	},
+	{
+		"_id" : "XOF",
+		"value" : {
+			"balanceSum" : 934043.6100000006
+		}
+	},
+	{
+		"_id" : "XPF",
+		"value" : {
+			"balanceSum" : 132926.00999999998
+		}
+	},
+	{
+		"_id" : "YER",
+		"value" : {
+			"balanceSum" : 583657.3799999998
+		}
+	},
+	{
+		"_id" : "ZAR",
+		"value" : {
+			"balanceSum" : 932463.6599999998
+		}
+	},
+	{
+		"_id" : "ZMW",
+		"value" : {
+			"balanceSum" : 160940.52999999997
+		}
+	},
+	{
+		"_id" : "ZWL",
+		"value" : {
+			"balanceSum" : 142978.86000000002
+		}
+	}
+]

@@ -1,0 +1,20 @@
+docker run --name=riak -d -p 8087:8087 -p 8098:8098 basho/riak-kv
+
+
+1. curl –XPUT -H "Content-Type: application/json" -d '{"name": "Jan", "age": 20, "nationality": "Poland", "isStudent":true}'  http://localhost:8098/buckets/s25542/keys/p1
+curl –XPUT -H "Content-Type: application/json" -d '{"name": "Anna", "age": 34, "nationality": "Poland", "isStudent":false}'  http://localhost:8098/buckets/s25542/keys/p2
+curl –XPUT -H "Content-Type: application/json" -d '{"name": "Mark", "age": 22, "nationality": "USA", "isStudent":true}'  http://localhost:8098/buckets/s25542/keys/p3
+curl –XPUT -H "Content-Type: application/json" -d '{"name": "Simon", "age": 31, "nationality": "Denmark", "isStudent":false}'  http://localhost:8098/buckets/s25542/keys/p4
+curl –XPUT -H "Content-Type: application/json" -d '{"name": "Hannah", "age": 23, "nationality": "USA", "isStudent":true}'  http://localhost:8098/buckets/s25542/keys/p5
+
+2. curl http://localhost:8098/buckets/s25542/keys/p1
+3. curl –XPUT -H "Content-Type: application/json" -d '{"name": "Jan", "age": 20, "nationality": "Poland", "isStudent":true, "grade":4}'  http://localhost:8098/buckets/s25542/keys/p1
+4. curl –XPUT -H "Content-Type: application/json" -d '{"name": "Anna", "nationality": "Poland", "isStudent":false}'  http://localhost:8098/buckets/s25542/keys/p2
+5. curl –XPUT -H "Content-Type: application/json" -d '{"name": "Mark", "age": 22, "nationality": "USA", "isStudent":false}'  http://localhost:8098/buckets/s25542/keys/p3
+6. curl -XDELETE http://localhost:8098/buckets/s25542/keys/p5
+7. curl http://localhost:8098/buckets/s25542/keys/p10
+8. curl –XPOST -H "Content-Type: application/json" -d '{"name": "Hannah"}' http://localhost:8098/buckets/s25542/keys/
+9. curl http://localhost:8098/buckets/s25542/keys/SIJwbdp7AzXkM38jRPmxPcnsHtt
+10. curl -XDELETE http://localhost:8098/buckets/s25542/keys/SIJwbdp7AzXkM38jRPmxPcnsHtt
+
+

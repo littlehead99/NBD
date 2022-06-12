@@ -1,0 +1,13 @@
+2.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp8+c98uiFAiYx4rQ34i7x2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25542>; rel="up"
+Last-Modified: Thu, 02 Jun 2022 16:29:35 GMT
+ETag: "5TWqi5ZvQd1ZkdgjWI4bBx"
+Date: Thu, 02 Jun 2022 16:36:12 GMT
+Content-Type: application/json
+Content-Length: 69
+
+{"name": "Jan", "age": 20, "nationality": "Poland", "isStudent":true}

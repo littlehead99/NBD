@@ -1,0 +1,4 @@
+Student information now stored in Riak with key: s1
+Fetched student details: Anna s12345
+Student after name update: Anna Maj s12345
+Student deleted

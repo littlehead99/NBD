@@ -1,0 +1,232 @@
+﻿[
+  {
+    "n": {
+"identity": 171,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1913,
+"name": "Joe Simon"
+      }
+    },
+    "r": {
+"identity": 258,
+"start": 171,
+"end": 169,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 181,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Stephen McFeely"
+      }
+    },
+    "r": {
+"identity": 255,
+"start": 181,
+"end": 169,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 170,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Christopher Markus"
+      }
+    },
+    "r": {
+"identity": 254,
+"start": 170,
+"end": 169,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 182,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Chris Evans"
+      }
+    },
+    "r": {
+"identity": 250,
+"start": 182,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Capitan America"
+        ]
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 180,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1950,
+"name": "Joe Johnston"
+      }
+    },
+    "r": {
+"identity": 253,
+"start": 180,
+"end": 169,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "r": {
+"identity": 251,
+"start": 172,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt"
+        ]
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 183,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1948,
+"name": "Samuel L. Jackson"
+      }
+    },
+    "r": {
+"identity": 252,
+"start": 183,
+"end": 169,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Nick Fury"
+        ]
+      }
+    },
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When patriots become heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  }
+]
