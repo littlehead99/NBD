@@ -1,0 +1,68 @@
+1. MATCH path = allShortestPath(
+  (n:town {name:"Darjeeling"})-[*]->(m:peak {name:"Sandakphu"})) 
+  RETURN path
+
+2. MATCH p= (n:town {name:"Darjeeling"})-[*]->(m:peak {name:"Sandakphu"})
+	WHERE all(r IN relationships(p) WHERE r.winter="true")
+	RETURN p 
+	ORDER BY length(p) 
+	LIMIT 3 
+
+3.MATCH p= (n:town {name:"Darjeeling"})-[*]->(m:peak {name:"Sandakphu"})
+	WITH p, REDUCE(x=0, a in RELATIONSHIPS(p) | x+a.distance) AS p_distance 
+	ORDER BY p_distance
+	RETURN p, p_distance
+
+4. (brak wyniku)
+MATCH p= (n {name:"Darjeeling"})-[r:twowheeler*]-(m)
+	WHERE all(r IN relationships(p) WHERE r.summer="true")
+	RETURN m
+
+
+-------------------------------------------------------------------------------------------------------------
+5. 
+MATCH (n:Airport)-[r:ORIGIN]-(m:Flight) 
+	RETURN n, count(*) AS count
+	ORDER BY count
+
+6.
+MATCH (f:Flight)-[a:ASSIGN]-(t:Ticket)
+    WITH f, MIN(t.price) AS min SET f.min_price = min
+
+MATCH p=(a1:Airport)-[:ORIGIN]-(f1:Flight)-[:DESTINATION]-(a2:Airport) 
+  WITH a1,a2, MIN(f1.min_price) as min
+  MATCH p2=(a1)-[:ORIGIN]-(f2:Flight)-[:DESTINATION]-(a2) 
+  WHERE f2.min_price = min 
+  WITH a1,a2,f2
+  CREATE (a1)-[r:CHEAPEST {price: f2.min_price}]->(a2)
+
+MATCH p=(a1:Airport {name:"LAX"})-[:CHEAPEST*..4]->(a2:Airport)
+  WITH p,a2, REDUCE(sum=0, x IN RELATIONSHIPS(p)| sum +x.price) AS total_price
+  WHERE total_price < 3000
+RETURN DISTINCT a2
+
+7. (brak wyniku)
+MATCH p=(a1:Airport {name:"LAX"})-[:CHEAPEST*..4]->(a2:Airport{name:"DAY"})
+  WITH p, REDUCE(sum=0, x IN RELATIONSHIPS(p)| sum +x.price) AS total_price
+  RETURN p, total_price
+  ORDER BY total_price
+
+8. (brak wyniku)
+MATCH p=(a1:Airport {name:"LAX"})-[:CHEAPEST*..4]->(a2:Airport{name:"DAY"})
+WITH p, REDUCE(sum=0, x IN RELATIONSHIPS(p)| sum +x.price) AS total_price
+RETURN p, total_price
+ORDER BY total_price
+LIMIT 1
+
+9. 
+MATCH (f:Flight)-[:DESTINATION|ORIGIN]->(a:Airport)
+RETURN f.airline, count(distinct(a)) as airports 
+ORDER BY airports
+
+10.
+MATCH p=(a1:Airport)-[:CHEAPEST*2..2]->(a2:Airport)
+  WITH p, REDUCE(sum=0, x IN RELATIONSHIPS(p)| sum +x.price) AS total_price
+  WHERE a1.name <> a2.name
+  RETURN p, total_price
+  ORDER BY total_price
+  LIMIT 1
